@@ -71,6 +71,7 @@ public class Lab {
     public String removeFromStartOfQueue(Queue<String> queue){
         String poll = queue.poll();
         return poll;
+
     }
 
     /**
@@ -80,7 +81,6 @@ public class Lab {
      * @return the next String due to be removed (peeked) from the Queue<String> (the oldest item in the queue.)
      */
     public String getStartOfQueueWithoutRemoving(Queue<String> queue){
-        
         String rmv = queue.peek();
         return rmv;
     }
